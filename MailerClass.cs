@@ -18,7 +18,7 @@ public class MailService
 	private string UserName = "";
 	private string Password = "";
 	private string MailServer = ""
-	private int PortNumber = "";
+	private int PortNumber = 25;
 
 	public MailService(string domain, string userName, string password, string mailServer, int portNumber = 25)
 	{
